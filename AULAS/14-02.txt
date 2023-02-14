@@ -1,0 +1,38 @@
+Após realizar os processos de instalação do ionic e escrever: "ionic star", faça:
+Abra a pasta do arquivo, digite cmd e:
+"code ."
+Suba o emulador:
+"ionic serve --lab"
+"yes" para todos os downloads requisitados.
+...
+INFORMAÇÕES: 
+src, app, home: Contém todos os arquivos para a tela home. Toda a vez que for criado uma nova pasta será adicionado nessa.
+Pagina principal: home.page
+Apagar código de texto, no meio da página para alterar.
+home.page.html
+ion-content =  corpo do html, será feito dentro dele
+
+Site documentaçaõ do ionic - ion input, exemplos de inputs que podem ser adds.
+Copiar o trecho do item escolhido, colar no documento e alterar conforme a necessidade. Salvar.
+
+Abrir arquivo home.page.ts:
+n1:string='';
+n2:string='';
+n3:number=0;
+(como strings)
+
+constructor() {}
+
+somar(){
+	this.res=parsefloat(this.n1)+parsefloat(this.n2);
+}
+
+voltando pro html e indicar para o button o metodo de clique - ionic a sintaxe é diferente:
+acrescentou = (click)="somar()..."
+
+em ion input após floating = [(ngModel)]="n2" 
+
+SALVAR:
+Depois de fechar o vs code, abra a pasta do projeto, e entre na pasta src, app, home que realizada hoje, e salvaremos somente ela para não ocupar tanto espaço.
+
+
